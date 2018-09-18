@@ -6,7 +6,6 @@
 //  Copyright © 2018 Lambda School. All rights reserved.
 //
 
-import Foundation
 import XCTest
 
 class MockDataLoader: NetworkDataLoader {
@@ -16,12 +15,16 @@ class MockDataLoader: NetworkDataLoader {
         self.error = error
     }
     
-    func loadData(using request: URLRequest, completion: @escaping (Data?, Error?) -> Void) {
+    func loadData(from request: URLRequest, completion: @escaping (Data?, Error?) -> Void) {
         self.request = request
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             completion(self.data, self.error)
         }
+    }
+    
+    func loadData(from url: URL, completion: @escaping (Data?, Error?) -> Void) {
+        
     }
     
     let data: Data?

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		49B99E0B21504FA700463071 /* AstronomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B99E0A21504FA700463071 /* AstronomyTests.swift */; };
 		49B99E132150500000463071 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B99E122150500000463071 /* TestCase.swift */; };
-		49B99E15215050D300463071 /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B99E14215050D300463071 /* NetworkDataLoader.swift */; };
+		49B99E162150530000463071 /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B99E14215050D300463071 /* NetworkDataLoader.swift */; };
 		9DBD20092140D1300047905E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD20082140D1300047905E /* AppDelegate.swift */; };
 		9DBD20102140D1300047905E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD200F2140D1300047905E /* Assets.xcassets */; };
 		9DBD20132140D1300047905E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD20112140D1300047905E /* LaunchScreen.storyboard */; };
@@ -86,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				49B99E122150500000463071 /* TestCase.swift */,
-				49B99E14215050D300463071 /* NetworkDataLoader.swift */,
 				49B99E0A21504FA700463071 /* AstronomyTests.swift */,
 				49B99E0C21504FA700463071 /* Info.plist */,
 			);
@@ -143,6 +142,7 @@
 				9DBD20222140D30F0047905E /* MarsRover.swift */,
 				9DBD20202140D30F0047905E /* SolDescription.swift */,
 				9DBD202E2140D7720047905E /* Camera.swift */,
+				49B99E14215050D300463071 /* NetworkDataLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,7 +295,6 @@
 			files = (
 				49B99E0B21504FA700463071 /* AstronomyTests.swift in Sources */,
 				49B99E132150500000463071 /* TestCase.swift in Sources */,
-				49B99E15215050D300463071 /* NetworkDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +307,7 @@
 				9DBD201C2140D19D0047905E /* ImageCollectionViewCell.swift in Sources */,
 				9DBD202D2140D38C0047905E /* Cache.swift in Sources */,
 				9DBD20342140DF1D0047905E /* PhotosCollectionViewController.swift in Sources */,
+				49B99E162150530000463071 /* NetworkDataLoader.swift in Sources */,
 				9DFE494C2145D37A0009922B /* PhotoDetailViewController.swift in Sources */,
 				9DBD20392140E46E0047905E /* FetchPhotoOperation.swift in Sources */,
 				9DBD20252140D30F0047905E /* MarsRover.swift in Sources */,
